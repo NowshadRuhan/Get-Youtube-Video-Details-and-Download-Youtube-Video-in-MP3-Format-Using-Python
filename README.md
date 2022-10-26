@@ -1,6 +1,17 @@
 # Get-Youtube-Video-Details-and-Download-Youtube-Video-in-MP3-Format-Using-Python
 Get Youtube Video Details and Download Youtube Video in MP3 Format Using Python
 
+## Following are the properties(information about the YouTube video) of the YouTube object which we can access:
+1. Title
+2. Length
+3. Thumbnail_URL
+4. Description
+5. Views*
+6. Rating*
+7. Age Restricted
+8. Video Id
+
+
 ## Before Run this code install :
 ```
 pip install pytube
@@ -36,17 +47,6 @@ print("Rating: " + str(youTube.rating))
 print("Age restricted: " + str(youTube.age_restricted))
 print("Video id: " + youTube.video_id)
 ```
-
-## Following are the properties(information about the YouTube video) of the YouTube object which we can access:
-1. Title
-2. Length
-3. Thumbnail_URL
-4. Description
-5. Views*
-6. Rating*
-7. Age Restricted
-8. Video Id
-
 
 ## Code. 
 ![Code](https://github.com/NowshadRuhan/Get-Youtube-Video-Details-and-Download-Youtube-Video-in-MP3-Format-Using-Python/blob/main/photo.png?raw=true) 
